@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9860f8e9ba529e2f1abb960a79d84e06",
+    "content-hash": "153fea78c090222f95c5e27fa1e86c5d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -781,6 +781,66 @@
             ],
             "description": "Highlight PHP code in terminal",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "laravel-admin-ext/simplemde",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-admin-extensions/simplemde.git",
+                "reference": "49bd152e313b1442c569679d7f5bff6ab0edd80c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-admin-extensions/simplemde/zipball/49bd152e313b1442c569679d7f5bff6ab0edd80c",
+                "reference": "49bd152e313b1442c569679d7f5bff6ab0edd80c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Encore\\Simplemde\\SimplemdeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Encore\\Simplemde\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "song",
+                    "email": "zosong@126.com"
+                }
+            ],
+            "description": "Simplemde markdown editor extension for laravel-admin",
+            "homepage": "https://github.com/laravel-admin-ext/simplemde",
+            "keywords": [
+                "editor",
+                "extension",
+                "laravel-admin",
+                "markdown"
+            ],
+            "time": "2018-12-06T02:51:32+00:00"
         },
         {
             "name": "laravel/framework",
